@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    
+    RewriteRule ^(.*)$ $1.php
+    
+
+    RewriteRule ^/?$ /pengajuan_sertifikat.php [L,NC]
+    RewriteRule ^admin/login/?$ /login_admin.php [L,NC]
+    RewriteRule ^/?login/?$ /error-404.php [L,NC]
+    #RewriteRule ^admin/login/(.+)$ /login.php$1 [L,NC]
+
+    # Menangani halaman error 404
+    ErrorDocument 404 /error-404.php
+</IfModule>
