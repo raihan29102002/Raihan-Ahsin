@@ -336,7 +336,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     },
                     error: function() {
                         // Tangani kesalahan jika terjadi
-                        alert('Terjadi kesalahan saat mengambil data nama acara.');
+                        alert('Terjadi kesalahan saat mengambil data desa.');
                     }
                 });
             });
