@@ -1,6 +1,0 @@
-{
-    "require": {
-        "psr/log": "^3.0",
-        "phpoffice/phpspreadsheet": "^1.29"
-    }
-}
