@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    height: 30px;
+    padding: 20px 0;
+  }
+  
+  .logo img {
+    height: 30px;
+    justify-content: right;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+.kata-logo{
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 40px;
+}
+
+.kata-logo h1{
+    font-size: 20px;
+}
+
+.iklan{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.iklan img{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.iklan h1{
+    margin-bottom: -20px;
+    font-size: 24px;
+    color: #0172AF;
+}
+.iklan h2{
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #0172AF;
+}
+.iklan p{
+    margin-right: 300px;
+    margin-left: 50px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+.iklan a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0172AF;
+    border: 2px solid #0172AF;
+    padding: 5px 30px;
+    border-radius: 2px;
+    margin-right: 20px; 
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.iklan a:hover{
+    background: linear-gradient(to right, #005a7f, #00411d);
+    transition: background 0.3s ease;
+}
+.iklan a:last-child {
+    margin-right: 0; 
+}
