@@ -10,8 +10,8 @@ try {
     exit('Failed to connect to database!');
 }
 session_start();
-$google_oauth_client_id = '478324164052-f4njrica36cm9t9rm42r5556g4v1rnpk.apps.googleusercontent.com';
-$google_oauth_client_secret = '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';
+$google_oauth_client_id = 'rahasia';
+$google_oauth_client_secret = 'rahasia';
 $google_oauth_redirect_uri = 'http://localhost/google-login/google-oauth.php';
 $google_oauth_version = 'v3';
 if (isset($_GET['code']) && !empty($_GET['code'])) {
